@@ -1,3 +1,4 @@
+#changes done
 import streamlit as st
 
 st.title("Sleep Predictor AI 🧠")
@@ -19,5 +20,5 @@ api_key = st.secrets["API_KEY"]
 # Fetch another secret
 db_password = st.secrets["DB_PASSWORD"]
 
-st.write("✅ Secrets fetched successfully!")
+st.write(" Secrets fetched successfully!✅")
 st.write(f"API key length: {len(api_key)}")  # Don't print actual keys in production
